@@ -8,9 +8,9 @@
   <project name="FSadino/omni_android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_vendor_omni" path="vendor/omni" remote="github" revision="android-7.1" />
+  <project name="FSadino/omni_android_art" path="art" remote="github" revision="android-7.1" />
   <project name="FSadino/android_device_oppo_find7op" path="device/oppo/find7op" remote="github" revision="android-7.1" />
   <project name="FSadino/OmniROM_changelog" path="vendor/cm" remote="github" revision="master" />
-  <project name="FSadino/android_art" path="art" remote="github" revision="android-7.1" />
 
 
   <project name="android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="omnirom" revision="android-7.1" />
