@@ -5,7 +5,7 @@
   
 
   <!-- Forked repos -->
-  <project name="FSadino/omni_android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="android-7.1" />
+  <project name="FSadino/omni_android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="id" />
   <project name="FSadino/omni_android_frameworks_base" path="frameworks/base" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_packages_apps_OmniGears" path="packages/apps/OmniGears" remote="github" revision="android-7.1" />
