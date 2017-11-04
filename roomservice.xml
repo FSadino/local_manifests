@@ -3,17 +3,21 @@
 <manifest>
   <remote fetch="https://bitbucket.org" name="bb" /> 
   
+  <!-- Test repos -->
+   
 
   <!-- Forked repos -->
-  <project name="FSadino/omni_android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="id" />
+  <project name="FSadino/android_device_oppo_find7op" path="device/oppo/find7op" remote="github" revision="android-7.1" />
+  <project name="FSadino/omni_android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="next2" />
+  <project name="FSadino/omni_android_bionic" path="bionic" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_frameworks_base" path="frameworks/base" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_packages_apps_OmniGears" path="packages/apps/OmniGears" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="android-7.1" />
   <project name="FSadino/omni_android_vendor_omni" path="vendor/omni" remote="github" revision="android-7.1" />
-  <project name="FSadino/android_device_oppo_find7op" path="device/oppo/find7op" remote="github" revision="android-7.1" />
   <project name="FSadino/OmniROM_changelog" path="vendor/cm" remote="github" revision="master" />
-  <project name="FSadino/omni_android_bionic" path="bionic" remote="github" revision="android-7.1" />
+  <project name="halogenOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="XOS-7.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   
 
 <!-- Omnirom Repos for find7op (bacon) -->
@@ -28,14 +32,15 @@
   <project name="android_device_qcom_caf-sepolicy" path="device/qcom/sepolicy" remote="omnirom" revision="android-7.1" />
 
 
-<!-- Toolchains (Uber for ROM & Linaro for Kernel -->
+<!-- Toolchains (Uber for ROM & Linaro for Kernel & SDclang for apps -->
   <project name="matthewdalex/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project name="nathanchance/gcc-prebuilts" path="prebuilts/gcc/linux-x86/arm/arm-linaro-linux-androideabi" remote="github" revision="arm-linaro-7.x" />
+  <project name="matthewdalex/sdclang-3.8" path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="bb" revision="master" />
 
 
 <!-- Vendor repos -->
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
-  <project name="DonkeyCoyote/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="android-7.1" />-->
+  <project name="DonkeyCoyote/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="android-7.1" />
   <project name="DonkeyCoyote/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
 
   
