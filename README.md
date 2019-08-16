@@ -1,1 +1,1 @@
-Bacon local_manifests
+Bacon OmniRom 7.x
