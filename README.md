@@ -1,1 +1,1 @@
-Bacon local_manifests
+OnePlus3 NitrogenOS Pie
