@@ -1,1 +1,1 @@
-OnePlus3 NitrogenOS Pie
+OnePlus3 LineageOS 16.0
